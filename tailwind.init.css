@@ -94,3 +94,38 @@ nav button {
   gap: 20px;
   justify-content: center;
 }
+/* about section */
+.about-section {
+  background-color: #1a0b2e;
+}
+.about-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+}
+.about-discription {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 160px;
+}
+.views h2 {
+  color: #00ff88;
+  font-size: 48px;
+}
+.views p {
+  color: white;
+  font-size: 16px;
+}
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.about-text {
+  text-align: center;
+  padding-top: 50px;
+}
+.about-views {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 120px;
+}
