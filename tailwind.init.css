@@ -189,3 +189,46 @@ footer {
 .grid-layout {
   padding-bottom: 120px;
 }
+/* video section */
+.text-epesode,
+.minute {
+  color: #00ff88;
+}
+
+.video-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* gap: 20px; */
+  /* display: flex; */
+  border: 2px solid red;
+}
+.epesode-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+.epesode-section {
+  background-color: #1a0b2e;
+}
+.epesode-title {
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 120px;
+  text-align: center;
+  /* margin-bottom: 40px; */
+}
+.text-epesode {
+  color: white;
+}
+.text-epesode h4 {
+  font-size: 24px;
+  font-weight: 700px;
+}
+.arif {
+  display: flex;
+  gap: 10px;
+}
+.text-epesode p {
+  font-size: 1rem;
+}
