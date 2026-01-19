@@ -129,3 +129,63 @@ nav button {
   justify-content: space-around;
   padding-bottom: 120px;
 }
+/* grid section */
+.grid-layout {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.grid-title {
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  padding: 120px 200px 40px 200px;
+  text-align: center;
+}
+.grid-section {
+  background-color: #230e3d;
+}
+.grid-layout > * {
+  /* border: 2px solid red; */
+  padding: 50px;
+  background-color: rgba(53, 17, 101, 0.4);
+  border-radius: 50px;
+}
+.grid-layout h4 {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
+.grid-layout p {
+  color: white;
+  font-size: 16px;
+}
+
+#latter {
+  grid-area: latter;
+}
+#invisible {
+  grid-area: invisible;
+}
+#visibility {
+  grid-area: visibility;
+}
+footer {
+  grid-area: footer;
+}
+#footer-right {
+  grid-area: footer-right;
+}
+.grid-layout {
+  display: grid;
+  gap: 20px;
+  grid-template-areas:
+    "latter   invisible  invisible"
+    "latter   visibility  visibility"
+    "footer   footer      footer-right";
+}
+.tarin img h4 p {
+  margin-bottom: 100px;
+}
+.grid-layout {
+  padding-bottom: 120px;
+}
