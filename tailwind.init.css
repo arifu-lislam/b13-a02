@@ -8,7 +8,9 @@
 }
 /* sheared style */
 /* nav section */
-
+.nav-container {
+  background-color: #1a0b2e;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -28,18 +30,67 @@ nav ul li {
 nav button {
   font-size: 1rem;
   color: white;
-  /* background-color: var(
-    --Linear,
-    linear-gradient(
-      47.64deg,
-      rgba(247, 233, 63, 1),
-      rgba(251, 9, 180, 1),
-      rgba(145, 0, 248, 1)
-    )
-  ); */
+  border-style: none;
 }
-.nav-section {
+.banner-container {
   background-image: url("./assets/hero-bg.png");
-  height: 850px;
+  height: 760px;
   max-width: 1600px;
+}
+
+/* banner-container */
+.image-container {
+  position: relative;
+  left: 3%;
+  top: 90px;
+}
+.overlay-image {
+  position: absolute;
+  left: 125px;
+  top: 80px;
+}
+.text-title {
+  color: white;
+  font-size: 60px;
+  font-weight: 900;
+  margin-top: 150px;
+  text-align: center;
+  margin-bottom: 2px;
+}
+.text-description {
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 25px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.btn #button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  border-style: none;
+}
+.btn #button2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #00ff88;
+  border-style: none;
+  background-color: #1a0b2e;
+  border: 2px solid #00ff88;
+}
+.btn {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
 }
