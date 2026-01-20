@@ -35,7 +35,7 @@ nav button {
 .banner-container {
   background-image: url("./assets/hero-bg.png");
   height: 760px;
-  max-width: 1600px;
+  /* max-width: 1600px; */
 }
 
 /* banner-container */
@@ -169,8 +169,8 @@ nav button {
 #visibility {
   grid-area: visibility;
 }
-footer {
-  grid-area: footer;
+#wrong {
+  grid-area: wrong;
 }
 #footer-right {
   grid-area: footer-right;
@@ -181,7 +181,7 @@ footer {
   grid-template-areas:
     "latter   invisible  invisible"
     "latter   visibility  visibility"
-    "footer   footer      footer-right";
+    "wrong   wrong      footer-right";
 }
 .tarin img h4 p {
   margin-bottom: 100px;
@@ -278,4 +278,44 @@ footer {
 }
 .challange-text {
   padding: 40px;
+}
+/* footer section */
+footer {
+  background-image: url("./assets/footer-bg.png");
+  /* height: 412px; */
+  padding: 120px 120px 120px 120px;
+}
+.footer-section {
+  margin: 0 auto;
+  max-width: 1360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  /* border: 2px solid red; */
+}
+.footer-container p {
+  color: white;
+}
+.footer-container {
+  display: flex;
+}
+.footer-icon {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  max-width: 544px;
+  /* border: 2px solid red; */
+  margin-bottom: 42px;
+}
+#copyright-footer {
+  color: white;
+}
+.footer-image img {
+  margin-bottom: 32px;
+}
+
+@media screen and (max-width: 576px) {
 }
