@@ -190,45 +190,87 @@ footer {
   padding-bottom: 120px;
 }
 /* video section */
-.text-epesode,
-.minute {
-  color: #00ff88;
-}
-
-.video-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  /* gap: 20px; */
-  /* display: flex; */
-  border: 2px solid red;
-}
-.epesode-container {
+.video-section {
+  display: flex;
+  gap: 20px;
   max-width: 1200px;
   margin: 0 auto;
-  width: 100%;
+  border: 2px solid red;
 }
 .epesode-section {
   background-color: #1a0b2e;
 }
-.epesode-title {
+.feature-epesode h2 {
   color: white;
   font-size: 48px;
-  font-weight: 700;
-  padding-top: 120px;
+  font-weight: bold;
   text-align: center;
-  /* margin-bottom: 40px; */
+  padding-top: 120px;
+  margin-bottom: 40px;
 }
-.text-epesode {
-  color: white;
+.title-section {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
 }
 .text-epesode h4 {
+  color: white;
   font-size: 24px;
-  font-weight: 700px;
+  font-weight: bold;
+  margin-top: 24px;
+}
+.text-epesode p {
+  color: white;
+  font-size: 16px;
+  margin-top: 12px;
+}
+.text-epesode {
+  max-width: 385px;
+  background-color: #250d44;
 }
 .arif {
   display: flex;
-  gap: 10px;
+  gap: 15px;
+  margin-top: 12px;
 }
-.text-epesode p {
+.arif img {
+  width:;
+}
+/* challange-title */
+.challange-title {
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 120px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.challange-sub-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  background-color: #250d44;
+  border-radius: 10px;
+}
+.challange-text h4 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.challange-text p {
+  color: white;
   font-size: 1rem;
+  margin-bottom: 16px;
+}
+.challange-icon {
+  display: flex;
+  gap: 20px;
+}
+.challange-image {
+  padding: 40px;
+}
+.challange-text {
+  padding: 40px;
 }
