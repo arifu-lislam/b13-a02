@@ -195,7 +195,7 @@ footer {
   gap: 20px;
   max-width: 1200px;
   margin: 0 auto;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .epesode-section {
   background-color: #1a0b2e;
@@ -237,7 +237,10 @@ footer {
 .arif img {
   width:;
 }
-/* challange-title */
+/* challange-section */
+.challange-section {
+  padding-bottom: 120px;
+}
 .challange-title {
   color: white;
   font-size: 48px;
@@ -270,6 +273,8 @@ footer {
 }
 .challange-image {
   padding: 40px;
+  width: 500px;
+  height: auto;
 }
 .challange-text {
   padding: 40px;
