@@ -318,4 +318,47 @@ footer {
 }
 
 @media screen and (max-width: 576px) {
+  .feature-epesode h2 {
+    padding-top: 50px;
+  }
+  .video-section {
+    flex-direction: column-reverse;
+    margin: 0;
+    width: 100%;
+  }
+  .video-section,
+  iframe {
+    width: 100%;
+    height: 300px;
+  }
+  .title-section {
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+  }
+  .grid-layout {
+    grid-template-areas:
+      "latter latter latter"
+      "invisible  invisible  invisible"
+      "visibility  visibility  visibility"
+      "wrong   wrong   wrong "
+      "footer-right   footer-right  footer-right";
+  }
+  .grid-title {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 40px;
+    text-align: center;
+  }
+  .challange-title {
+    margin-top: 30px;
+  }
+  .challange-sub-section {
+    flex-direction: column;
+  }
+  .challange-image {
+    padding: 40px;
+    width: 300px;
+    height: auto;
+  }
 }
